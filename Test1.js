@@ -7,7 +7,7 @@ function intToChar(num) {
     }
     return str;
   }
-  console.log(intToChar(703)); 
+  console.log(intToChar(1));
 
 
 

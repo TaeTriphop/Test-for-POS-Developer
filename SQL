@@ -1,6 +1,0 @@
-  // sql ข้อที่ 3
-  SELECT name,totalSales, RANK() OVER (ORDER BY totalSales DESC) ranks FROM Sales;
-
-
-   // sql ข้อที่ 4
-  Select name, totalSales, Sum(totalSales) OVER (Order By totalSales desc) as Accumulate From sales Order By totalSales desc;
